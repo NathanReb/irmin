@@ -1,1 +1,0 @@
-duniverse/stringext/lib_test/test_stringext-ReactHooksTemplate.cmj : ReactHooksTemplate.cmi duniverse/stringext/lib/stringext-ReactHooksTemplate.cmj duniverse/stringext/lib/stringext-ReactHooksTemplate.cmi

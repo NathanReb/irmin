@@ -1,2 +1,0 @@
-duniverse/uri/lib/uri-ReactHooksTemplate.cmj : ReactHooksTemplate.cmi duniverse/re/lib/posix-ReactHooksTemplate.cmj duniverse/re/lib/posix-ReactHooksTemplate.cmi duniverse/re/lib/re-ReactHooksTemplate.cmj duniverse/re/lib/re-ReactHooksTemplate.cmi duniverse/stringext/lib/stringext-ReactHooksTemplate.cmj duniverse/stringext/lib/stringext-ReactHooksTemplate.cmi
-duniverse/uri/lib/uri-ReactHooksTemplate.cmi : ReactHooksTemplate.cmi duniverse/re/lib/re-ReactHooksTemplate.cmi

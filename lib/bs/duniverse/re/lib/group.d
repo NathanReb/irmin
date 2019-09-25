@@ -1,2 +1,0 @@
-duniverse/re/lib/group-ReactHooksTemplate.cmj : ReactHooksTemplate.cmi duniverse/re/lib/automata-ReactHooksTemplate.cmj duniverse/re/lib/automata-ReactHooksTemplate.cmi duniverse/re/lib/pmark-ReactHooksTemplate.cmj duniverse/re/lib/pmark-ReactHooksTemplate.cmi duniverse/re/lib/re_fmt-ReactHooksTemplate.cmj duniverse/re/lib/re_fmt-ReactHooksTemplate.cmi
-duniverse/re/lib/group-ReactHooksTemplate.cmi : ReactHooksTemplate.cmi duniverse/re/lib/automata-ReactHooksTemplate.cmi duniverse/re/lib/pmark-ReactHooksTemplate.cmi

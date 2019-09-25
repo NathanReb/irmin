@@ -1,2 +1,0 @@
-src/irmin/lock-ReactHooksTemplate.cmj : ReactHooksTemplate.cmi duniverse/lwt/src/core/lwt-ReactHooksTemplate.cmj duniverse/lwt/src/core/lwt-ReactHooksTemplate.cmi duniverse/lwt/src/core/lwt_mutex-ReactHooksTemplate.cmj duniverse/lwt/src/core/lwt_mutex-ReactHooksTemplate.cmi src/irmin/type-ReactHooksTemplate.cmj src/irmin/type-ReactHooksTemplate.cmi
-src/irmin/lock-ReactHooksTemplate.cmi : ReactHooksTemplate.cmi duniverse/lwt/src/core/lwt-ReactHooksTemplate.cmi src/irmin/type-ReactHooksTemplate.cmi

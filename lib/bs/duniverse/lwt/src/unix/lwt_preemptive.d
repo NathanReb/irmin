@@ -1,2 +1,0 @@
-duniverse/lwt/src/unix/lwt_preemptive-ReactHooksTemplate.cmj : ReactHooksTemplate.cmi duniverse/lwt/src/core/lwt-ReactHooksTemplate.cmj duniverse/lwt/src/core/lwt-ReactHooksTemplate.cmi duniverse/lwt/src/core/lwt_sequence-ReactHooksTemplate.cmj duniverse/lwt/src/core/lwt_sequence-ReactHooksTemplate.cmi duniverse/lwt/src/unix/lwt_unix-ReactHooksTemplate.cmj duniverse/lwt/src/unix/lwt_unix-ReactHooksTemplate.cmi
-duniverse/lwt/src/unix/lwt_preemptive-ReactHooksTemplate.cmi : ReactHooksTemplate.cmi duniverse/lwt/src/core/lwt-ReactHooksTemplate.cmi

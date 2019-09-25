@@ -1,2 +1,0 @@
-duniverse/ocamlgraph/src/prim-ReactHooksTemplate.cmj : ReactHooksTemplate.cmi duniverse/ocamlgraph/lib/heap-ReactHooksTemplate.cmj duniverse/ocamlgraph/lib/heap-ReactHooksTemplate.cmi duniverse/ocamlgraph/src/sig-ReactHooksTemplate.cmj duniverse/ocamlgraph/src/sig-ReactHooksTemplate.cmi
-duniverse/ocamlgraph/src/prim-ReactHooksTemplate.cmi : ReactHooksTemplate.cmi duniverse/ocamlgraph/src/sig-ReactHooksTemplate.cmi

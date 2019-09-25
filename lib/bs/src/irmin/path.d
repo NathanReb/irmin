@@ -1,2 +1,0 @@
-src/irmin/path-ReactHooksTemplate.cmj : ReactHooksTemplate.cmi duniverse/astring/src/astring-ReactHooksTemplate.cmj duniverse/astring/src/astring-ReactHooksTemplate.cmi duniverse/fmt/src/fmt-ReactHooksTemplate.cmj duniverse/fmt/src/fmt-ReactHooksTemplate.cmi src/irmin/type-ReactHooksTemplate.cmj src/irmin/type-ReactHooksTemplate.cmi
-src/irmin/path-ReactHooksTemplate.cmi : ReactHooksTemplate.cmi src/irmin/s-ReactHooksTemplate.cmi

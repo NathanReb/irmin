@@ -1,2 +1,0 @@
-duniverse/ocamlgraph/src/topological-ReactHooksTemplate.cmj : ReactHooksTemplate.cmi duniverse/ocamlgraph/src/components-ReactHooksTemplate.cmj duniverse/ocamlgraph/src/components-ReactHooksTemplate.cmi duniverse/ocamlgraph/src/ocamlgraph_path-ReactHooksTemplate.cmj duniverse/ocamlgraph/src/ocamlgraph_path-ReactHooksTemplate.cmi duniverse/ocamlgraph/src/sig-ReactHooksTemplate.cmj duniverse/ocamlgraph/src/sig-ReactHooksTemplate.cmi
-duniverse/ocamlgraph/src/topological-ReactHooksTemplate.cmi : ReactHooksTemplate.cmi duniverse/ocamlgraph/src/sig-ReactHooksTemplate.cmi

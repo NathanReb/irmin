@@ -1,2 +1,0 @@
-duniverse/logs/src/logs_lwt-ReactHooksTemplate.cmj : ReactHooksTemplate.cmi duniverse/logs/src/logs-ReactHooksTemplate.cmj duniverse/logs/src/logs-ReactHooksTemplate.cmi duniverse/lwt/src/core/lwt-ReactHooksTemplate.cmj duniverse/lwt/src/core/lwt-ReactHooksTemplate.cmi
-duniverse/logs/src/logs_lwt-ReactHooksTemplate.cmi : ReactHooksTemplate.cmi duniverse/logs/src/logs-ReactHooksTemplate.cmi duniverse/lwt/src/core/lwt-ReactHooksTemplate.cmi

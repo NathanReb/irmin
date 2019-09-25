@@ -1,2 +1,0 @@
-duniverse/ocamlgraph/editor/gtree-ReactHooksTemplate.cmj : ReactHooksTemplate.cmi duniverse/ocamlgraph/src/components-ReactHooksTemplate.cmj duniverse/ocamlgraph/src/components-ReactHooksTemplate.cmi duniverse/ocamlgraph/papers/tfp07/dfs-ReactHooksTemplate.cmj duniverse/ocamlgraph/papers/tfp07/dfs-ReactHooksTemplate.cmi duniverse/ocamlgraph/editor/htree-ReactHooksTemplate.cmj duniverse/ocamlgraph/editor/htree-ReactHooksTemplate.cmi
-duniverse/ocamlgraph/editor/gtree-ReactHooksTemplate.cmi : ReactHooksTemplate.cmi
