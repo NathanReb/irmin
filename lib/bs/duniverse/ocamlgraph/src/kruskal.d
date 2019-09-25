@@ -1,0 +1,2 @@
+duniverse/ocamlgraph/src/kruskal-ReactHooksTemplate.cmj : ReactHooksTemplate.cmi duniverse/ocamlgraph/src/sig-ReactHooksTemplate.cmj duniverse/ocamlgraph/src/sig-ReactHooksTemplate.cmi duniverse/ocamlgraph/lib/unionfind-ReactHooksTemplate.cmj duniverse/ocamlgraph/lib/unionfind-ReactHooksTemplate.cmi
+duniverse/ocamlgraph/src/kruskal-ReactHooksTemplate.cmi : ReactHooksTemplate.cmi duniverse/ocamlgraph/src/sig-ReactHooksTemplate.cmi

@@ -1,0 +1,2 @@
+duniverse/ocamlgraph/view_graph/viewGraph_select-ReactHooksTemplate.cmj : ReactHooksTemplate.cmi duniverse/ocamlgraph/view_graph/viewGraph_core-ReactHooksTemplate.cmj duniverse/ocamlgraph/view_graph/viewGraph_core-ReactHooksTemplate.cmi
+duniverse/ocamlgraph/view_graph/viewGraph_select-ReactHooksTemplate.cmi : ReactHooksTemplate.cmi duniverse/ocamlgraph/view_graph/viewGraph_core-ReactHooksTemplate.cmi

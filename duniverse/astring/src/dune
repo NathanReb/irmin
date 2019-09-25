@@ -5,10 +5,3 @@
    astring_string astring)
  (flags :standard -w -27)
  (wrapped false))
-
-(library
- (name astring_top)
- (public_name astring.top)
- (libraries compiler-libs.toplevel)
- (modules astring_top)
- (wrapped false))

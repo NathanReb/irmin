@@ -1,0 +1,2 @@
+duniverse/ocamlgraph/src/minsep-ReactHooksTemplate.cmj : ReactHooksTemplate.cmi duniverse/ocamlgraph/src/components-ReactHooksTemplate.cmj duniverse/ocamlgraph/src/components-ReactHooksTemplate.cmi duniverse/ocamlgraph/src/oper-ReactHooksTemplate.cmj duniverse/ocamlgraph/src/oper-ReactHooksTemplate.cmi duniverse/ocamlgraph/src/sig-ReactHooksTemplate.cmj duniverse/ocamlgraph/src/sig-ReactHooksTemplate.cmi
+duniverse/ocamlgraph/src/minsep-ReactHooksTemplate.cmi : ReactHooksTemplate.cmi duniverse/ocamlgraph/src/sig-ReactHooksTemplate.cmi

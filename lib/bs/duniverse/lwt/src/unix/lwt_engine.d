@@ -1,0 +1,2 @@
+duniverse/lwt/src/unix/lwt_engine-ReactHooksTemplate.cmj : ReactHooksTemplate.cmi duniverse/lwt/src/unix/lwt_config-ReactHooksTemplate.cmj duniverse/lwt/src/unix/lwt_config-ReactHooksTemplate.cmi duniverse/lwt/src/core/lwt_pqueue-ReactHooksTemplate.cmj duniverse/lwt/src/core/lwt_pqueue-ReactHooksTemplate.cmi duniverse/lwt/src/core/lwt_sequence-ReactHooksTemplate.cmj duniverse/lwt/src/core/lwt_sequence-ReactHooksTemplate.cmi
+duniverse/lwt/src/unix/lwt_engine-ReactHooksTemplate.cmi : ReactHooksTemplate.cmi

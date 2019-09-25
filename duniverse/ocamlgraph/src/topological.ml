@@ -72,7 +72,7 @@ module Make_stable(G: sig include G val in_degree : t -> V.t -> int end) =
 struct
 
   module H = Hashtbl.Make(G.V)
-  module C = Path.Check(G)
+  module C = Ocamlgraph_path.Check(G)
 
   let choose ~old (v, n) =
     let l, min = old in

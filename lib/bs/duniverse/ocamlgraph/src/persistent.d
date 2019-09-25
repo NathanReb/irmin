@@ -1,0 +1,2 @@
+duniverse/ocamlgraph/src/persistent-ReactHooksTemplate.cmj : ReactHooksTemplate.cmi duniverse/ocamlgraph/src/blocks-ReactHooksTemplate.cmj duniverse/ocamlgraph/src/blocks-ReactHooksTemplate.cmi src/irmin/s-ReactHooksTemplate.cmj src/irmin/s-ReactHooksTemplate.cmi duniverse/ocamlgraph/src/sig-ReactHooksTemplate.cmj duniverse/ocamlgraph/src/sig-ReactHooksTemplate.cmi
+duniverse/ocamlgraph/src/persistent-ReactHooksTemplate.cmi : ReactHooksTemplate.cmi duniverse/ocamlgraph/src/sig-ReactHooksTemplate.cmi

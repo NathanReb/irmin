@@ -1,0 +1,2 @@
+duniverse/ocamlgraph/dgraph/dGraphViewItem-ReactHooksTemplate.cmj : ReactHooksTemplate.cmi duniverse/ocamlgraph/dgraph/xDot-ReactHooksTemplate.cmj duniverse/ocamlgraph/dgraph/xDot-ReactHooksTemplate.cmi duniverse/ocamlgraph/dgraph/xDotDraw-ReactHooksTemplate.cmj duniverse/ocamlgraph/dgraph/xDotDraw-ReactHooksTemplate.cmi
+duniverse/ocamlgraph/dgraph/dGraphViewItem-ReactHooksTemplate.cmi : ReactHooksTemplate.cmi duniverse/ocamlgraph/dgraph/xDot-ReactHooksTemplate.cmi duniverse/ocamlgraph/dgraph/xDotDraw-ReactHooksTemplate.cmi

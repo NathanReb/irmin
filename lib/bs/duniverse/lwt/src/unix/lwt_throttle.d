@@ -1,0 +1,2 @@
+duniverse/lwt/src/unix/lwt_throttle-ReactHooksTemplate.cmj : ReactHooksTemplate.cmi duniverse/lwt/src/core/lwt-ReactHooksTemplate.cmj duniverse/lwt/src/core/lwt-ReactHooksTemplate.cmi duniverse/lwt/src/unix/lwt_unix-ReactHooksTemplate.cmj duniverse/lwt/src/unix/lwt_unix-ReactHooksTemplate.cmi
+duniverse/lwt/src/unix/lwt_throttle-ReactHooksTemplate.cmi : ReactHooksTemplate.cmi duniverse/lwt/src/core/lwt-ReactHooksTemplate.cmi

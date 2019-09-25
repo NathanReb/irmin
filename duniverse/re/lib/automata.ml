@@ -105,7 +105,7 @@ let pp_rep_kind fmt = function
   | `Non_greedy -> Format.pp_print_string fmt "Non_greedy"
 
 let rec pp ch e =
-  let open Fmt in
+  let open Re_fmt in
   match e.def with
     Cst l ->
     sexp ch "cst" Cset.pp l;

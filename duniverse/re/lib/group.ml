@@ -65,7 +65,7 @@ let pp fmt t =
     Array.to_list (
       Array.init (Array.length strs) (fun i -> strs.(i), offsets.(i))
     ) in
-  let open Fmt in
+  let open Re_fmt in
   let pp_match fmt (str, (start, stop)) =
     fprintf fmt "@[(%s (%d %d))@]" str start stop in
   sexp fmt "Group" (list pp_match) matches

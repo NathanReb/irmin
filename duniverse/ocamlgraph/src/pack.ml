@@ -53,10 +53,10 @@ struct
     let compare : t -> t -> int = Pervasives.compare
   end
 
-  include Path.Dijkstra(G)(W)
-  include Path.Johnson(G)(W)
+  include Ocamlgraph_path.Dijkstra(G)(W)
+  include Ocamlgraph_path.Johnson(G)(W)
 
-  module BF = Path.BellmanFord(G)(W)
+  module BF = Ocamlgraph_path.BellmanFord(G)(W)
   let bellman_ford = BF.find_negative_cycle_from
 
   module F = struct
@@ -84,7 +84,7 @@ struct
 
   include Oper.Make(Builder)
 
-  module PathCheck = Path.Check(G)
+  module PathCheck = Ocamlgraph_path.Check(G)
 
   module Topological = struct
     include Topological.Make(G)
@@ -138,7 +138,7 @@ struct
   let parse_gml_file = GmlParser.parse
 
   module DotParser =
-    Dot.Parse
+    Ocamlgraph_dot.Parse
       (Builder)
       (struct
         let nodes = Hashtbl.create 97

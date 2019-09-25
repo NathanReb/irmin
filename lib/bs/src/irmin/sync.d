@@ -1,0 +1,2 @@
+src/irmin/sync-ReactHooksTemplate.cmj : ReactHooksTemplate.cmi duniverse/lwt/src/core/lwt-ReactHooksTemplate.cmj duniverse/lwt/src/core/lwt-ReactHooksTemplate.cmi src/irmin/type-ReactHooksTemplate.cmj src/irmin/type-ReactHooksTemplate.cmi
+src/irmin/sync-ReactHooksTemplate.cmi : ReactHooksTemplate.cmi duniverse/lwt/src/core/lwt-ReactHooksTemplate.cmi src/irmin/s-ReactHooksTemplate.cmi src/irmin/type-ReactHooksTemplate.cmi
