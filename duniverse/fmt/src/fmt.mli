@@ -24,7 +24,7 @@ val stderr : Format.formatter
 
 (** {1:formatting Formatting} *)
 
-val pf : Format.formatter -> ('a, Format.formatter, unit) Stdlib.format -> 'a
+val pf : Format.formatter -> ('a, Format.formatter, unit) Pervasives.format -> 'a
 (** [pf] is {!Format.fprintf}. *)
 
 val pr : ('a, Format.formatter, unit) format -> 'a
@@ -41,7 +41,7 @@ val str : ('a, Format.formatter, unit, string) format4 -> 'a
     {!str_like}. *)
 
 val kpf : (Format.formatter -> 'a) -> Format.formatter ->
-  ('b, Format.formatter, unit, 'a) Stdlib.format4 -> 'b
+  ('b, Format.formatter, unit, 'a) Pervasives.format4 -> 'b
 (** [kpf] is {!Format.kfprintf}. *)
 
 val kstr :
@@ -58,7 +58,7 @@ val with_buffer : ?like:Format.formatter -> Buffer.t -> Format.formatter
     settings are copied from those of {!like} (if provided). *)
 
 val failwith : ('a, Format.formatter, unit, 'b) format4 -> 'a
-(** [failwith] is [kstr failwith], raises {!Stdlib.Failure} with
+(** [failwith] is [kstr failwith], raises {!Pervasives.Failure} with
     a pretty-printed string argument. *)
 
 val failwith_notrace : ('a, Format.formatter, unit, 'b) format4 -> 'a
@@ -66,7 +66,7 @@ val failwith_notrace : ('a, Format.formatter, unit, 'b) format4 -> 'a
 
 val invalid_arg : ('a, Format.formatter, unit, 'b) format4 -> 'a
 (** [invalid_arg] is [kstr invalid_arg], raises
-    {!Stdlib.Invalid_argument} with a pretty-printed string argument. *)
+    {!Pervasives.Invalid_argument} with a pretty-printed string argument. *)
 
 val error : ('b, Format.formatter , unit, ('a, string) result) format4 -> 'b
 (** [error fmt ...] is [kstr (fun s -> Error s) fmt ...] *)
@@ -86,7 +86,7 @@ val flush : 'a t
 val nop : 'a t
 (** [nop] formats nothing. *)
 
-val any : (unit, Format.formatter, unit) Stdlib.format -> 'a t
+val any : (unit, Format.formatter, unit) Pervasives.format -> 'a t
 (** [any fmt ppf v] formats any value with the constant format [fmt]. *)
 
 val using : ('a -> 'b) -> 'b t -> 'a t
@@ -95,7 +95,7 @@ val using : ('a -> 'b) -> 'b t -> 'a t
 val const : 'a t -> 'a -> 'b t
 (** [const pp_v v] always formats [v] using [pp_v]. *)
 
-val fmt : ('a, Format.formatter, unit) Stdlib.format -> Format.formatter -> 'a
+val fmt : ('a, Format.formatter, unit) Pervasives.format -> Format.formatter -> 'a
 (** [fmt fmt ppf] is [pf ppf fmt]. If [fmt] is used with a single
     non-constant formatting directive, generates a value of type
     {!t}. *)
@@ -196,7 +196,7 @@ val record : ?sep:unit t -> 'a t list -> 'a t
     [fields], separated by [sep] (defaults to [cut]) and framed in a vertical
     box. *)
 
-(** {1:stdlib Stdlib types}
+(** {1:stdlib Pervasives types}
 
     Formatters for structures give full control to the client over the
     formatting process and do not wrap the formatted structures with
@@ -319,7 +319,7 @@ val stack : ?sep:unit t -> 'a t -> 'a Stack.t t
     whenever possible, using OCaml syntax. *)
 module Dump : sig
 
-  (** {1:stdlib Stdlib types} *)
+  (** {1:stdlib Pervasives types} *)
 
   val signal : int t
   (** [signal] formats an OCaml {{!Sys.sigabrt}signal number} as a C
@@ -633,10 +633,10 @@ val strf_like :
   Format.formatter -> ('a, Format.formatter, unit, string) format4 -> 'a
 (** @deprecated use {!str_like} instead. *)
 
-val always : (unit, Format.formatter, unit) Stdlib.format -> 'a t
+val always : (unit, Format.formatter, unit) Pervasives.format -> 'a t
 (** @deprecated use {!any} instead. *)
 
-val unit : (unit, Format.formatter, unit) Stdlib.format -> unit t
+val unit : (unit, Format.formatter, unit) Pervasives.format -> unit t
 (** @deprecated use {!any}. *)
 
 val prefix : unit t -> 'a t -> 'a t
@@ -646,7 +646,7 @@ val suffix : unit t -> 'a t -> 'a t
 (** @deprecated use {!( ++ )}. *)
 
 val styled_unit :
-  style -> (unit, Format.formatter, unit) Stdlib.format -> unit t
+  style -> (unit, Format.formatter, unit) Pervasives.format -> unit t
 (** @deprecated, use [styled s (any fmt)] instead *)
 
 (** {1:nameconv Naming conventions}

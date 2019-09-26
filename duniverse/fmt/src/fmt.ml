@@ -100,7 +100,7 @@ let quote ?(mark = "\"") pp_v =
   let pp_mark ppf _ = Format.pp_print_as ppf 1 mark in
   box ~indent:1 (pp_mark ++ pp_v ++ pp_mark)
 
-(* Stdlib types formatters *)
+(* Pervasives types formatters *)
 
 let bool = Format.pp_print_bool
 let int = Format.pp_print_int
@@ -166,7 +166,7 @@ let hashtbl ?sep pp_binding = iter_bindings ?sep Hashtbl.iter pp_binding
 let queue ?sep pp_elt = iter Queue.iter pp_elt
 let stack ?sep pp_elt = iter Stack.iter pp_elt
 
-(* Stdlib type dumpers *)
+(* Pervasives type dumpers *)
 
 module Dump = struct
 
